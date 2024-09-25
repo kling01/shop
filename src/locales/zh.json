@@ -1,0 +1,26 @@
+{
+  "navbar": {
+    "home": "首页",
+    "products": "产品",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "language": "语言"
+  },
+  "login": {
+    "title": "登录",
+    "email": "邮箱",
+    "password": "密码",
+    "loginButton": "登录",
+    "error": "登录失败，请检查您的凭据。",
+    "toggle": "去注册"
+  },
+  "register": {
+    "title": "注册",
+    "username": "用户名",
+    "email": "邮箱",
+    "password": "密码",
+    "registerButton": "注册",
+    "error": "注册失败，请重试。",
+    "toggle": "去登录"
+  }
+}

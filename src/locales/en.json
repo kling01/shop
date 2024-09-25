@@ -1,0 +1,27 @@
+{
+    "navbar": {
+      "home": "Home",
+      "products": "Products",
+      "about": "About Us",
+      "contact": "Contact Us",
+      "language": "Language"
+    },
+    "login": {
+      "title": "Login",
+      "email": "Email",
+      "password": "Password",
+      "loginButton": "Login",
+      "error": "Login failed, please check your credentials.",
+      "toggle": "Go to Register"
+    },
+    "register": {
+      "title": "Register",
+      "username": "Username",
+      "email": "Email",
+      "password": "Password",
+      "registerButton": "Register",
+      "error": "Registration failed, please try again.",
+      "toggle": "Go to Login"
+    }
+  }
+  
