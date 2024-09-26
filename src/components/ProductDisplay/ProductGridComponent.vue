@@ -47,6 +47,100 @@
           price: 1999,
           image: require('@/assets/images/product4.jpg'),
         },
+        {
+          name: "智能手机",
+          description: "现代化设计，功能齐全。",
+          price: 4999,
+          image: require('@/assets/images/product1.jpg'),
+        },
+        {
+          name: "笔记本电脑",
+          description: "高性能，便携设计。",
+          price: 7999,
+          image: require('@/assets/images/product2.jpg'),
+        },
+        {
+          name: "无线耳机",
+          description: "降噪功能，超长电池。",
+          price: 999,
+          image: require('@/assets/images/product3.jpg'),
+        },
+        {
+          name: "智能手表",
+          description: "外观时尚，多功能。",
+          price: 1999,
+          image: require('@/assets/images/product4.jpg'),
+        },
+        {
+          name: "智能手机",
+          description: "现代化设计，功能齐全。",
+          price: 4999,
+          image: require('@/assets/images/product1.jpg'),
+        },
+        {
+          name: "笔记本电脑",
+          description: "高性能，便携设计。",
+          price: 7999,
+          image: require('@/assets/images/product2.jpg'),
+        },
+        {
+          name: "无线耳机",
+          description: "降噪功能，超长电池。",
+          price: 999,
+          image: require('@/assets/images/product3.jpg'),
+        },
+        {
+          name: "智能手表",
+          description: "外观时尚，多功能。",
+          price: 1999,
+          image: require('@/assets/images/product4.jpg'),
+        }, {
+          name: "智能手机",
+          description: "现代化设计，功能齐全。",
+          price: 4999,
+          image: require('@/assets/images/product1.jpg'),
+        },
+        {
+          name: "笔记本电脑",
+          description: "高性能，便携设计。",
+          price: 7999,
+          image: require('@/assets/images/product2.jpg'),
+        },
+        {
+          name: "无线耳机",
+          description: "降噪功能，超长电池。",
+          price: 999,
+          image: require('@/assets/images/product3.jpg'),
+        },
+        {
+          name: "智能手表",
+          description: "外观时尚，多功能。",
+          price: 1999,
+          image: require('@/assets/images/product4.jpg'),
+        }, {
+          name: "智能手机",
+          description: "现代化设计，功能齐全。",
+          price: 4999,
+          image: require('@/assets/images/product1.jpg'),
+        },
+        {
+          name: "笔记本电脑",
+          description: "高性能，便携设计。",
+          price: 7999,
+          image: require('@/assets/images/product2.jpg'),
+        },
+        {
+          name: "无线耳机",
+          description: "降噪功能，超长电池。",
+          price: 999,
+          image: require('@/assets/images/product3.jpg'),
+        },
+        {
+          name: "智能手表",
+          description: "外观时尚，多功能。",
+          price: 1999,
+          image: require('@/assets/images/product4.jpg'),
+        },
       ];
   
       // 在组件挂载时加载测试数据
