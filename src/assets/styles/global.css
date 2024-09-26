@@ -1,9 +1,26 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('../images/loginbackground.jpg'); 
+  background-size: cover; /* 确保背景图覆盖整个视口 */
+  background-repeat: no-repeat; /* 不重复背景图 */
+  background-position: center; /* 居中显示背景图 */
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.2); /* 半透明白色，调整透明度 */
+  backdrop-filter: blur(50spx); /* 虚化效果，调整强度 */
+  border-radius: 10px; /* 可选，给毛玻璃效果增加圆角 */
+  z-index: -1; /* 确保背景在内容下方 */
+}
+
+a {
+  text-decoration: none;
+}

@@ -4,7 +4,8 @@
       "products": "Products",
       "about": "About Us",
       "contact": "Contact Us",
-      "language": "Language"
+      "language": "Language",
+      "login": "Login"
     },
     "login": {
       "title": "Login",
@@ -22,6 +23,18 @@
       "registerButton": "Register",
       "error": "Registration failed, please try again.",
       "toggle": "Go to Login"
-    }
+    },
+    "search": {
+        "placeholder": "Search for products, brands, etc."
+    },
+    "product": {
+        "recommendations": "Product Recommendations"
+    },
+    "slogan": {
+    "text": "Next-gen AI E-commerce Engine - Truly Understand You Need"
+  }
+    
+    
+    
   }
   

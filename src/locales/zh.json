@@ -4,7 +4,8 @@
     "products": "产品",
     "about": "关于我们",
     "contact": "联系我们",
-    "language": "语言"
+    "language": "语言",
+    "login": "登录"
   },
   "login": {
     "title": "登录",
@@ -22,5 +23,14 @@
     "registerButton": "注册",
     "error": "注册失败，请重试。",
     "toggle": "去登录"
+  },
+  "search": {
+    "placeholder": "搜索商品、品牌等"
+  },
+  "product": {
+    "recommendations": "商品推荐"
+  },
+  "slogan": {
+    "text": "新一代AI电商引擎，最懂你想要的"
   }
 }

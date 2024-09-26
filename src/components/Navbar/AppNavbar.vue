@@ -17,6 +17,9 @@
             <option value="en">English</option>
           </select>
         </div>
+        <div class="nav-links">
+          <router-link class="nav-link" to="/auth">{{ $t('navbar.login') }}</router-link>
+        </div>
         <div class="user-info">
           <img src="https://via.placeholder.com/40" alt="User Avatar" class="user-avatar" /> <!-- 用户头像占位符 -->
         </div>

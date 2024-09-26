@@ -14,13 +14,13 @@
 <script>
 import { ref, computed } from 'vue';
 import { useStore } from 'vuex';
-import { useRouter } from 'vue-router'; // 引入 vue-router
+import { useRouter } from 'vue-router';
 
 export default {
   name: 'UserLogin',
   setup() {
     const store = useStore();
-    const router = useRouter(); // 获取路由实例
+    const router = useRouter();
     const email = ref('');
     const password = ref('');
     const error = computed(() => store.state.auth.error);
@@ -30,8 +30,7 @@ export default {
     };
 
     const goToRegister = () => {
-      // 跳转到注册页面
-      router.push('/register'); // 确保路由设置正确
+      router.push('/register');
     };
 
     return { email, password, error, handleLogin, goToRegister };

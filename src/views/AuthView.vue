@@ -1,8 +1,11 @@
 <!-- src/views/AuthView.vue -->
 <template>
   <div class="auth-view">
-    <UserLogin v-if="isLogin" @toggle-view="toggleView" />
-    <UserRegister v-else @toggle-view="toggleView" />
+    <div class="background"></div>
+    <div class="content">
+      <UserLogin v-if="isLogin" @toggle-view="toggleView" />
+      <UserRegister v-else @toggle-view="toggleView" />
+    </div>
   </div>
 </template>
 
@@ -27,10 +30,20 @@ export default {
 
 <style scoped>
 .auth-view {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh; /* 确保填满整个视口 */
-  background-color: #f0f2f5;
+  overflow: hidden;
+}
+
+.content {
+  position: relative;
+  z-index: 1; /* 确保内容在虚化背景之上 */
+  background: rgba(255, 255, 255, 0.8); /* 半透明白色背景 */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* 添加阴影 */
 }
 </style>
